@@ -1,0 +1,69 @@
+* {
+  transition: all 0.3s ease;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  background-color: #141414;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.font_akcent {
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Montserrat Subrayada", sans-serif;
+  color: #FDAE00;
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+
+p {
+  line-height: 170%;
+}
+
+.text_akcent {
+  color: #FDAE00;
+}
+
+/* HEADER */
+/* BLANK ADAPTIVE */
+/* // XXL */
+/* // XL */
+/* // LG */
+/* // MD */
+/* // SM */
+/* // XS */
+/* HEADER: end */
+/* FOOTER */
+/* BLANK ADAPTIVE */
+/* // XXL */
+/* // XL */
+/* // LG */
+/* // MD */
+/* // SM */
+/* // XS */
+/* FOOTER: end */
+/* PROMO */
+/* BLANK ADAPTIVE */
+/* // XXL */
+/* // XL */
+/* // LG */
+/* // MD */
+/* // SM */
+/* // XS */
+/* PROMO: end *//*# sourceMappingURL=styles.css.map */
