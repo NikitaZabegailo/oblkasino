@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200..900&display=swap");
 * {
   transition: all 0.3s ease;
 }
@@ -7,10 +8,9 @@ html {
 }
 
 body {
-  background-color: #141414;
-  color: #fff;
-  font-size: 20px;
-  font-family: "Raleway", sans-serif;
+  background-color: #F6F1FF;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
 
@@ -20,28 +20,42 @@ body {
 }
 
 .font_akcent {
-  font-family: "Montserrat Subrayada", sans-serif;
+  font-family: "Unbounded", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
+.text_akcent {
+  color: #17B18D;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+  font-family: "Unbounded", sans-serif;
+  color: #17B18D;
+}
+
 h2 {
-  font-family: "Montserrat Subrayada", sans-serif;
-  color: #FDAE00;
   font-size: 40px;
-  margin-bottom: 60px;
 }
 
 p {
-  line-height: 170%;
-}
-
-.text_akcent {
-  color: #FDAE00;
+  line-height: 150%;
 }
 
 /* HEADER */
-/* BLANK ADAPTIVE */
+header {
+  background-color: #401C8D;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-nav .nav-link.active {
+  color: #17B18D;
+}
+
+/* HEADER ADAPTIVE */
 /* // XXL */
 /* // XL */
 /* // LG */
@@ -50,7 +64,7 @@ p {
 /* // XS */
 /* HEADER: end */
 /* FOOTER */
-/* BLANK ADAPTIVE */
+/* FOOTER ADAPTIVE */
 /* // XXL */
 /* // XL */
 /* // LG */
@@ -59,7 +73,33 @@ p {
 /* // XS */
 /* FOOTER: end */
 /* PROMO */
-/* BLANK ADAPTIVE */
+#promo {
+  background: #401C8D url("../img/promo_bg.jpg") repeat scroll center center/cover;
+  box-shadow: inset 0 5px 5px -5px #206;
+}
+#promo h1 {
+  color: #fff;
+  font-size: 60px;
+}
+#promo p {
+  color: #aaa;
+}
+
+.promo_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 20px;
+  color: #555;
+  font-weight: 500;
+}
+.promo_card img {
+  width: 90px;
+}
+
+/* PROMO ADAPTIVE */
 /* // XXL */
 /* // XL */
 /* // LG */
