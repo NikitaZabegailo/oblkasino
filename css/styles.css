@@ -186,6 +186,18 @@ footer {
   margin-bottom: 20px;
 }
 
+.table-striped-custom tbody tr:nth-of-type(odd) {
+  --bs-table-bg: #eeeeff;
+}
+
+.table-striped-custom tbody tr:nth-of-type(even) {
+  --bs-table-bg: #e4e4ff;
+}
+
+table a {
+  color: #6d2bf1;
+}
+
 #text-info h2 {
   margin-bottom: 20px;
 }
