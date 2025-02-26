@@ -194,7 +194,7 @@ footer {
   --bs-table-bg: #e4e4ff;
 }
 
-table a {
+.table a {
   color: #6d2bf1;
 }
 
