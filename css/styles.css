@@ -31,7 +31,7 @@ body {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: bold;
   font-family: "Unbounded", sans-serif;
-  color: #17B18D;
+  color: #353941;
   word-wrap: break-all;
   overflow-wrap: break-all;
   -webkit-hyphens: auto;
@@ -200,13 +200,43 @@ footer {
 /* // MD */
 /* bestlist: end */
 /* text_block */
+.text-info__text {
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+#rate_table h3 {
+  margin-bottom: 20px;
+}
+
+.table-striped-custom tbody tr:nth-of-type(odd) {
+  --bs-table-bg: #eeeeff;
+}
+
+.table-striped-custom tbody tr:nth-of-type(even) {
+  --bs-table-bg: #e4e4ff;
+}
+
+table a {
+  color: #6d2bf1;
+}
+
+#text-info h2 {
+  margin-bottom: 20px;
+}
+
 .box {
   background-color: #ededfe;
   border-radius: 5px;
-  padding: 10px;
+  padding: 11px 20px 13px 15px;
+  margin-bottom: 10px;
 }
 
-/* _text_block ADAPTIVE */
+.box h3 {
+  margin-bottom: 0px;
+  /* _text_block ADAPTIVE */
+}
+
 /* // XXL */
 /* // XL */
 /* // LG */
