@@ -1,6 +1,7 @@
 $c0: #555
 $c1: #17B18D
 $c2: #401C8D
+$c9: #aaa
 
 $f1: "Poppins", sans-serif
 $f2: "Unbounded", sans-serif
@@ -34,6 +35,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
 	font-weight: bold
 	font-family: $f2
 	color: $c1
+	word-wrap: break-all
+	overflow-wrap: break-all
+	hyphens: auto
 
 h2
 	font-size: 40px
@@ -46,5 +50,6 @@ p
 @import _header
 @import _footer
 @import _promo
+@import _bestlist
 @import _text_block
 

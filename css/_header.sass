@@ -11,15 +11,6 @@ header
 
 /* HEADER ADAPTIVE */
 
-/* // XXL */
-@media (max-width: 1679px)
-	header
-		//
-
-/* // XL */
-@media (max-width: 1439px) 
-	header
-		//
 
 /* // LG */
 @media (max-width: 1199px)
@@ -29,17 +20,21 @@ header
 /* // MD */
 @media (max-width: 991px) 
 	header
-		//
+		.navbar-brand img
+			width: 150px
+		.navbar-toggler
+			border: none
+			outline: none
+			&:focus
+				box-shadow: none
+		.navbar-toggler-icon
+			background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+		.navbar-collapse
+			margin-top: 10px
+			border-top: 1px solid $c9
+			padding-top: 30px
+			padding-bottom: 30px
 
-/* // SM */
-@media (max-width: 767px)
-	header
-		//
-
-/* // XS */
-@media (max-width: 575px) 
-	header
-		//
 
 
 /* HEADER: end */
