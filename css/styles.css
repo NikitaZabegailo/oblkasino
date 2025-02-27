@@ -346,4 +346,64 @@ footer {
 /* // MD */
 /* // SM */
 /* // XS */
-/* _text_block: end *//*# sourceMappingURL=styles.css.map */
+/* _text_block: end */
+/* steps block */
+.steps-box {
+  position: relative;
+}
+
+.step {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.step-number {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #3d3d3d;
+  color: #fff;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.step-content {
+  color: #333;
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+.step-success {
+  display: flex;
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #6f42c1;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.step a {
+  color: #6f42c1;
+  text-decoration: none;
+}
+
+.step a:hover {
+  text-decoration: none;
+  /* _steps_block ADAPTIVE */
+}
+
+/* // XXL */
+/* // XL */
+/* // LG */
+/* // MD */
+/* // SM */
+/* // XS */
+/* _step_block: end *//*# sourceMappingURL=styles.css.map */
