@@ -406,4 +406,33 @@ footer {
 /* // MD */
 /* // SM */
 /* // XS */
-/* _step_block: end *//*# sourceMappingURL=styles.css.map */
+/* _step_block: end */
+/* faqs*/
+.faq {
+  background-color: #EEEEFF;
+  border-radius: 8px;
+  padding: 30px 30px 25px;
+  margin-bottom: 30px;
+}
+
+.faqs_title {
+  margin-bottom: 30px;
+}
+
+span[itemprop=name] {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+div[itemprop=text] {
+  margin-bottom: 15px;
+  /* _faqs ADAPTIVE */
+}
+
+/* // XXL */
+/* // XL */
+/* // LG */
+/* // MD */
+/* // SM */
+/* // XS */
+/* _faqs: end *//*# sourceMappingURL=styles.css.map */
