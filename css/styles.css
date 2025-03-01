@@ -435,4 +435,52 @@ div[itemprop=text] {
 /* // MD */
 /* // SM */
 /* // XS */
-/* _faqs: end *//*# sourceMappingURL=styles.css.map */
+/* _faqs: end */
+/* modal */
+.header_text {
+  font-size: 32px;
+  font-weight: 800;
+  font-family: "Unbounded", sans-serif;
+  color: #6d2bf1;
+  text-transform: uppercase;
+}
+
+.gift-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.gift-text {
+  padding-left: 5px;
+  flex-wrap: nowrap;
+}
+
+.form-control {
+  background-color: #FEF4D8;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.btn-subscribe {
+  background-color: #fc0;
+  color: #353941;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  width: 100%;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+/* _modal ADAPTIVE */
+/* // XXL */
+/* // XL */
+/* // LG */
+/* // MD */
+/* // SM */
+/* // XS */
+/* _modal: end *//*# sourceMappingURL=styles.css.map */

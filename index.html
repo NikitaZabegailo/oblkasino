@@ -560,6 +560,41 @@
 </section> <!-- / faqs -->
 
 
+<!-- modal -->
+<div id="bonusModal" class="modal " tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered modal-lg">
+	  <div class="modal-content">
+		<div class="modal-header border-bottom-0 p-2">
+		  <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+		  <div class="container-fluid">
+			<div class="row g-0">
+				<div class="col-md-4 gift-image"><img src="img/ec-modal.svg" alt="gift"></div>
+				<div class="col-md-8 gift-text"><span class="header_text">⚡ Ønsker du å motta eksklusive bonuser?</span>
+				<p>Abonner nå for å få spesialrabatter, siste nytt og eksklusive tilbud rett i innboksen din!</p>
+				
+					<form>
+						<div class="mb-3">
+						<input type="email" class="form-control" id="emailInput" placeholder="Enter email *" required>
+						</div>
+						<div class="form-check mb-3">
+						<input class="form-check-input" type="checkbox" value="" id="agreeCheck" required>
+						<label class="form-check-label small" for="agreeCheck">
+							Jeg bekrefter at jeg er minst 18 år gammel og godtar vilkårene for bruk, personvernerklæringen, samtykker til å motta nyhetsbrev fra norge-casino.com
+						</label>
+						<button type="submit" class="btn btn-subscribe">ABONNER</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div> <!--/ end modal-->
+
+
 
 	<!-- footer -->
 	<footer id="footer" class="py-5">
@@ -570,5 +605,14 @@
 
 
 <script src="js/bootstrap.bundle.min.js"></script>
+<script>
+	window.addEventListener ('DOMContentLoaded', (event) => { setTimeout(() => {
+		const modalElement = document.getElementById('bonusModal');
+		const modal = new bootstrap.Modal(modalElement);
+		modal.show();
+		}, 3000)
+	});
+</script>
+
 </body>
 </html>
